@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>///</title>
+  <meta name="description" content="#">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="filters">
+    		<div class="row">
+    			<div class="col-lg-4 col-md-4">
+    				<span class="edit">
+    					<select id="autocity_select" onchange="filterIt();">
+    						<option value="0">Любой город</option>
+    													<option value="1">Симферополь</option>
+    													<option value="3">Алушта</option>
+    													<option value="5">Бахчисарай</option>
+    													<option value="6">Белогорск</option>
+    													<option value="7">Джанкой</option>
+    													<option value="8">Евпатория</option>
+    													<option value="9">Керчь</option>
+    													<option value="10">Красноперекопск</option>
+    													<option value="11">Саки</option>
+    													<option value="12">Старый Крым</option>
+    													<option value="13">Судак</option>
+    													<option value="14">Феодосия</option>
+    													<option value="16">Ялта</option>
+    													<option value="17">пгт. Красногвардейское</option>
+    													<option value="18">пгт. Ленино</option>
+    													<option value="19">пгт. Советское</option>
+    											</select>
+    				</span>
+    			</div>
+    			<div class="col-lg-4 col-md-4">
+    				<span class="edit">
+    					<select id="autocategory_select" onchange="filterIt();">
+    						<option value="0">Любая категория</option>
+    													<option value="1">A</option>
+    													<option value="2">A1</option>
+    													<option value="3">B</option>
+    													<option value="4">BE</option>
+    													<option value="5">B1</option>
+    													<option value="6">C</option>
+    													<option value="7">CE</option>
+    													<option value="8">C1</option>
+    													<option value="9">С1E</option>
+    													<option value="10">D</option>
+    													<option value="11">DE</option>
+    													<option value="12">D1</option>
+    													<option value="13">D1E</option>
+    													<option value="14">M</option>
+    													<option value="15">Tm</option>
+    													<option value="16">Tb</option>
+    											</select>
+    				</span>
+    			</div>
+    			<div class="col-lg-4 col-md-3">
+    				<a onclick="filterIt(); return false;" class="btn">ПРИМЕНИТЬ</a>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div id="autoschool_content" class="items">
+    					<div class="item">
+    				<div class="row">
+    					<div class="col-lg-6 col-md-6">
+    						<div class="title">
+    							<h3>
+    								Советский районный учебно-спортивный центр ДОСААФ России						</h3>
+    							<div class="caption">
+    								Советский районный учебно-спортивный центр ДОСААФ России						</div>
+    						</div>
+    					</div>
+    					<div class="col-lg-6 col-md-6 col-center">
+    						<div class="info">
+    							<div class="line">
+    								<b class="capton">
+    									Категории:
+    								</b>
+    								<span class="value">
+    																												B																			C																								</span>
+    							</div>
+    							<div class="line">
+    								<b class="capton">
+    									Адрес:
+    								</b>
+    								<span class="value">
+    									297200 РФ, Республика Крым, Советский р-н,  пгт. Советское, ул. 50 лет СССР, д. 37							</span>
+    							</div>
+    							<div class="line">
+    								<b class="capton">
+    									Телефон:
+    								</b>
+    								<span class="value">
+    									+7 978 863 06 44							</span>
+    							</div>
+    							<div class="line">
+    								<b class="capton">
+    									Email:
+    								</b>
+    								<span class="value">
+    									sovetosou@gmail.com							</span>
+    							</div>
+    							<div class="line">
+    								<b class="capton">
+    									Сайт:
+    								</b>
+    								<span class="value">
+    																	<a href="http://dosaafcenter.ucoz.org" target="_blank">dosaafcenter.ucoz.org</a>
+    								</span>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="item">
+    			<div class="row">
+    				<div class="col-lg-6 col-md-6">
+    					<div class="title">
+    						<h3>
+    							Ленинский спортивно-технический клуб ДОСААФ России						</h3>
+    						<div class="caption">
+    							Ленинский спортивно-технический клуб ДОСААФ России						</div>
+    					</div>
+    				</div>
+    				<div class="col-lg-6 col-md-6 col-center">
+    					<div class="info">
+    						<div class="line">
+    							<b class="capton">
+    								Категории:
+    							</b>
+    							<span class="value">
+    																											B																			C																								</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Адрес:
+    							</b>
+    							<span class="value">
+    								298200 РФ, Республика Крым, пгт. Ленино, ул. Трудовая, д.1							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Телефон:
+    							</b>
+    							<span class="value">
+    								+7 978  820 04 76							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Email:
+    							</b>
+    							<span class="value">
+    								lenstk@mail.ru							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Сайт:
+    							</b>
+    							<span class="value">
+    																<a href="http://досааф-ленино-крым.рф" target="_blank">досааф-ленино-крым.рф</a>
+    							</span>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    				<div class="item">
+    			<div class="row">
+    				<div class="col-lg-6 col-md-6">
+    					<div class="title">
+    						<h3>
+    							Красногвардейский районный учебно-спортивный центр ДОСААФ России 						</h3>
+    						<div class="caption">
+    							Красногвардейский районный учебно-спортивный центр ДОСААФ России 						</div>
+    					</div>
+    				</div>
+    				<div class="col-lg-6 col-md-6 col-center">
+    					<div class="info">
+    						<div class="line">
+    							<b class="capton">
+    								Категории:
+    							</b>
+    							<span class="value">
+    																											B																			C																								</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Адрес:
+    							</b>
+    							<span class="value">
+    								297000 РФ, Республика Крым, Красногвардейский р-н, пгт. Красногвардейское,ул. Тельмана, д. 17							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Телефон:
+    							</b>
+    							<span class="value">
+    								+7 97 8 883 52 56							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Email:
+    							</b>
+    							<span class="value">
+    								krasn_osou@bk.ru							</span>
+    						</div>
+    						<div class="line">
+    							<b class="capton">
+    								Сайт:
+    							</b>
+    							<span class="value">
+    																<a href="http://dosaaf-krasnogvardeyskiy.ru" target="_blank">dosaaf-krasnogvardeyskiy.ru</a>
+    							</span>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+
+    		</div>
+
+<script type="text/javascript">
+function filterIt(){
+
+    $.ajax({
+      type:		"POST",
+      url:		"/service/filterIt",
+      data:       "city="+$('#autocity_select').val()+"&category="+$('#autocategory_select').val(),
+      dataType:	"html",
+      success: function(html){
+        $('#autoschool_content').html(html);
+      }
+    });
+    return false;
+
+}
+
+</script>
+  </body>
+
+
+</html>
