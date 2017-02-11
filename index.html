@@ -240,7 +240,7 @@ function filterIt(){
 
     $.ajax({
       type:		"POST",
-      url:		"/service/filterIt",
+      url:		"/filterIt",
       data:       "city="+$('#autocity_select').val()+"&category="+$('#autocategory_select').val(),
       dataType:	"html",
       success: function(html){
